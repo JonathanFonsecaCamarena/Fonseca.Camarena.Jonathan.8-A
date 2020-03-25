@@ -1,0 +1,149 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# PSoC Creator Files to ignore (Drew 2018-04-05)
+codegentemp/
+CortexM3/
+Export/
+Generated_Source/
+
+# More PSoC Creator files to ignore (Henry 2018-11-08)
+*.log
+*_timing.html
+
+# For PSoC Creator (from https://community.cypress.com/thread/18187?start=0&tstart=0)
+*.cywrk.*
+*.cyprj.*
+*.cycdx
+*.cyfit
+*.rpt
+*.uvopt
+*.uvproj
+*_timing.html
+*.cydsn/codegentemp
+*.cydsn/CortexM3
+*.cydsn/Generated_Source
+*.svd
+
+# Ignore .DS_Store on Macs
+.DS_Store
+
+# and temporary emacs files.
+*~
+
+# For ROS workspace/packages:
+# taken from ros-perception/slam_gmapping
+.cproject
+.project
+.pydevproject
+cmake_install.cmake
+build/
+bin/
+msg_gen/
+srv_gen/
+*.pyc
+
+# removing file locks (those are per-system.)
+*~lock*
