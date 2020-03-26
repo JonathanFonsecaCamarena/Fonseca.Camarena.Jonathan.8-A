@@ -1,0 +1,27 @@
+Antes que todo es diseñar un programa que itere un lazo de 10 veces incrementado una variable en 2 por cada interaccion. Realizar el prepocesado,compilado ensamblado y vinculado del programa.
+
+abrir terminal 
+
+mkdir -p contador
+
+ //se crea la programacion el nombre del archivo.c
+--------------------------------------------------
+una vez terminado tecleamos ctr-x-s se guarda con .c
+
+despues tecleamos alt-x y escribimos compilar y borramos el Make -k que nos aparacere y escribimos la instruccion para compilar con gcc: gcc contador.c -o contador
+
+este es el procedimiento al estar escribiendo el programa y como debe de aguardar los archivos
+
+contador.c = condigo fuente C
+contador.cpp= proceso de compilacion
+contador.o= Archivo objeto
+conteo varialble que se muestra en terminal
+
+* para compilar desde terminal abrimos la carpeta donde escribimos ./contador y presionamos enter 
+
+veamos que complia correctamente 
+
+
+igual manera dejo el link de descarga de github para que hagan el desarrollo de esta practica 
+
+eso es todo gracias por su antencion 

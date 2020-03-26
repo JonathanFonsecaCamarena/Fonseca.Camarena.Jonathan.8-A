@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a,b;
+for(a=0;a<=9;a++)
+    
+    {
+    b=b+2;
+    printf("%i\n",b);
+    }
+}
